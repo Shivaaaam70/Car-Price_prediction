@@ -16,7 +16,7 @@ from sklearn.linear_model import Lasso
 from sklearn import metrics
 
 #load the data from csv file to pandas dataframe
-car_dataset = pd.read_csv('/content/CAR DETAILS FROM CAR DEKHO.csv')
+car_dataset = pd.read_csv('CAR DETAILS FROM CAR DEKHO.csv')
 
 #inspecting from first 5 rows of the dataframe
 car_dataset.head()
